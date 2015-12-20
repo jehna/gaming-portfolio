@@ -1,0 +1,132 @@
+body, html, section {
+    width: 100%;
+    height: 100%;
+}
+
+body, html, div, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.hint.scroll {
+    background: url('img/scroll.png') transparent top right no-repeat;
+    min-width: 200px;
+    min-height: 180px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 50px;
+    color: #C84;
+    font-weight: bold;
+    line-height: 90%;
+}
+
+.hint.scroll p {
+    margin: 0px 110px 0 0;
+}
+
+h1 {
+    color: #582E0F;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 80%;
+    padding-top: 80px;
+}
+
+h1 small, h3 {
+    color: #C84;
+    font-size: 70px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: right;
+    padding: 380px 20px 0;
+    color: #582E0F;
+    line-height: 90%;
+}
+
+.score_holder {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#score {
+    color: #FAF3ED;
+    font-size: 250px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    position: absolute;
+    bottom: -80px;
+    right: -60px;
+    display: none;
+    min-width: 1800px;
+    text-align: right;
+}
+
+#gameslist {
+    padding: 40px 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 270%;
+    padding: 50px 0 0;
+    text-align: right;
+}
+
+li {
+    border-bottom: 1px dotted #CCC;
+}
+
+.hint {
+    color: #999;
+    font-size: 18px;
+    margin: 0;
+}
+
+#contact {
+    padding: 15px;
+    width: 885px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #582E0F;
+    border: 2px solid #CCC;
+}
+
+#contact.unfocused {
+    color: #CCC;
+}
+
+#submit-form {
+    background: #C84;
+    border: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    padding: 15px 61px;
+    float: right;
+    margin: 10px 0 0;
+    border-radius: 0;
+    -webkit-border-radius:0;
+}
+
+h3 {
+    padding-top: 90px;
+}
